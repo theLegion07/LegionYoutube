@@ -37,15 +37,22 @@
     height: 35px ;
     width: 35px ;
     margin-left: 10px ;
+    cursor : pointer ; 
+
 }
 .yt-icon{
     height: 55px ;
+    cursor : pointer ; 
 }
 .search-icon{
     height: 24px ;
+    cursor : pointer ; 
+    
 }
 .notification{
     height: 35px ;
+    cursor : pointer ; 
+    
 }
 .search-bar{
     flex : 1 ;
@@ -77,13 +84,19 @@
     margin-left : -20px ;
     border : solid 1px rgb(56, 55, 55) ;
     margin-right : 5px ;  
+    cursor : pointer ; 
+
 }
 .search-icon{
     padding-top : 2px ; 
+    cursor : pointer ; 
+
 }
 .speak-icon{
     height: 30px ;
     object-position: center;
+    cursor : pointer ; 
+
 }
 .speaker-logo{
     border-radius : 50px  ;
@@ -92,6 +105,8 @@
     height: 30px ;
     width: 30px ;
     margin-left : 5px ; 
+    cursor : pointer ; 
+
 
 }
 .account-dp{
@@ -103,4 +118,6 @@
 }
 .upload{
     height: 30px;
+    cursor : pointer ; 
+
 }

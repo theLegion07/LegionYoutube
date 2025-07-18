@@ -22,6 +22,7 @@
     height: 32px;
     object-fit: cover ;
     border-radius: 50%; 
+    z-index : 1000 ; 
 }
 .video-info{
     display: grid ;
@@ -56,10 +57,12 @@
  }
  .video-profile{
     position: relative ;
-    
+    transition: all 0.15s ease-in-out;
+ }
+ .video-profile:hover  {
+     transform: scale(1.04);
  }
  .preview-1:hover{
-        background-color: rgb(46, 44, 44);
         cursor: pointer;
  }
  .video-time{
